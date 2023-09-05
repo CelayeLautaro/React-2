@@ -1,0 +1,64 @@
+header{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+
+#Acerca-De-Mi,#Habilidades,#Contacto{
+margin: 20px;
+padding : 12px;
+text-align: center;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+#Acerca-De-Mi,#Habilidades,#Contacto{
+    font-size: 20px;
+}
+#Habilidades ul{
+    list-style: none;
+
+}
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav ul a :hover{
+    color:rgb(245, 50, 1);
+}
+@media only screen and (max-width: 600px) {
+    header,#Acerca-De-Mi,#Habilidades,#Contacto{
+        padding: 12px;
+    }
+    h1, h2 {
+        font-size: 16px;       
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    header,#Acerca-De-Mi,#Habilidades,#Contacto{
+        padding: 22px;
+
+    }
+    h1, h2 {
+        font-size: 24px;       
+}
+}
+@media only screen and (min-width: 1025px) {
+    header,#Acerca-De-Mi,#Habilidades,#Contacto{
+        padding: 26px;
+    }
+
+h1, h2 {
+    font-size: 30px;
+     }
+      
+}
